@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 export default function Projects() {
     useEffect(()=>{
         AOS.init({
-            duration:400,
+            duration:700,
             delay:10,
         })
     },[])
