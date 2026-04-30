@@ -10,7 +10,7 @@ import { ReactTyped } from 'react-typed'
 
 export default function Hero() {
     return (
-        <div className='grid lg:grid-cols-5 grid-cols-1 items-center  lg:gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-4 lg:h-[calc(100vh-15vh)] '>
+        <div className='grid lg:grid-cols-5 grid-cols-1 items-center  lg:gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 max-w-7xl mx-auto px-4 lg:h-[calc(100vh-15vh)] '>
             <div className='col-span-3 '>
                 <h2 className='lg:text-3xl text-xl font-semibold my-3'>Hey, I am Siyam</h2>
                 <ReactTyped

@@ -15,12 +15,10 @@ export default function Projects() {
         AOS.init({
             duration:400,
             delay:10,
-           
-           
         })
     },[])
     return (
-        <div className='lg:flex  gap-6 lg:px-40 px-8 py-24  bg-linear-160 from-gray-900 to-black/80'>
+        <div className='lg:flex gap-6 max-w-7xl mx-auto px-8 py-24  '>
             {/* project-1 */}
             <div data-aos="zoom-in-up" className="card mb-10 lg:mb-0 lg:w-96 shadow-sm">
                 <figure>

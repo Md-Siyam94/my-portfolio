@@ -20,10 +20,10 @@ export default function Home() {
        <section id="about">
         <About></About>
         </section>
-        <section id="skills">
+        <section id="skills" className="bg-white/10">
           <Skills></Skills>
         </section>
-        <section id="projects">
+        <section id="projects" className="bg-linear-160 from-gray-900 to-black/80">
           <Projects></Projects>
           </section>
           <section id="contact">

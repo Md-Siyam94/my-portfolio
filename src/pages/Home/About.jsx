@@ -9,7 +9,7 @@ import { Pagination,  FreeMode } from 'swiper/modules';
 
 export default function About() {
   return (
-    <div className='lg:px-40 px-4 lg:pt-10 pb-24'>
+    <div className='max-w-7xl mx-auto px-4 lg:pt-10 pb-24'>
          <Swiper
         slidesPerView={2}
          centeredSlides={true}

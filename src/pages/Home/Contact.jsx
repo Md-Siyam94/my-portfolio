@@ -8,7 +8,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Contact() {
     return (
-        <div className='lg:px-40 px-4 pt-16 pb-24 gap-5   grid lg:grid-cols-2 grid-cols-1 items-center'>
+        <div className='max-w-7xl mx-auto px-4 pt-16 pb-24 gap-5   grid lg:grid-cols-2 grid-cols-1 items-center'>
             <div className='col-span-1 text-center lg:text-start'>
                 <h2 className='text-warning font-semibold'>How can I help you?</h2>
                 <h1 className='lg:text-6xl md:text-4xl text-3xl font-semibold mb-4 mt-2'>Get In <span className='text-warning'>Touch</span></h1>
