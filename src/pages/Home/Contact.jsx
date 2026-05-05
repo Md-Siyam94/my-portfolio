@@ -38,7 +38,7 @@ export default function Contact() {
                         delay: 0.25,
                         ease: [0.25, 0.8, 0.25, 1],
                     }}
-                    viewport={{once: true}} className='opacity-80'>I have here to help and answer any question you might have. I look forward to hearing from you!</motion.p>
+                    viewport={{once: true}} className='opacity-80 md:w-2/3 lg:w-full mx-auto '>I have here to help and answer any question you might have. I look forward to hearing from you!</motion.p>
                 <motion.div
                  initial={{ y: 80, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -62,10 +62,15 @@ export default function Contact() {
                 </div>
                 </motion.div>
             </div>
-            <div className='col-span-1 '>
+            <motion.div
+              initial={{ scale: 0.5, opacity: 0 }} // small + invisible
+        whileInView={{ scale: 1, opacity: 1 }}   // normal size
+        transition={{ duration: 0.7,delay: 0.15, ease: "easeOut" }}
+        viewport={{once: true}}
+            className='col-span-1  '>
                 <Image className=' w-full relative object-cover' src={ContactMe} alt='contact' />
 
-            </div>
+            </motion.div>
         </div>
     )
 }

@@ -72,7 +72,7 @@ export default function Hero() {
                         delay: 0.3,
                         ease: [0.25, 0.8, 0.25, 1],
                     }}
-                    className='opacity-60 mt-4'>Currently, I am working with Tailwind CSS, JavaScript, React, and other
+                    className='opacity-60 mt-4 md:w-3/4 lg:w-full '>Currently, I am working with Tailwind CSS, JavaScript, React, and other
                     modern web technologies to build dynamic and responsive web applications.</motion.p>
                 <motion.div
                     initial={{ y: 80, opacity: 0 }}

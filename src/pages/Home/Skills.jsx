@@ -33,7 +33,7 @@ export default function Skills() {
                         ease: [0.25, 0.8, 0.25, 1],
                     }}
                     viewport={{once: true}}
-                className='opacity-80 mt-4'>With a strong foundation in web development, I specialize in the MERN stack (MongoDB, Express.js, React.js, and Node.js)</motion.p>
+                className='opacity-80 mt-4 md:w-3/4 lg:w-full mx-auto'>With a strong foundation in web development, I specialize in the MERN stack (MongoDB, Express.js, React.js, and Node.js)</motion.p>
             </div>
             <div className='col-span-3  h-[330px] overflow-y-scroll grid md:grid-cols-4 gap-6 p-5 items-center grid-cols-3 ' >
                 {
