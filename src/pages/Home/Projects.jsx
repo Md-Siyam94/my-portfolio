@@ -13,14 +13,15 @@ import "aos/dist/aos.css";
 export default function Projects() {
     useEffect(()=>{
         AOS.init({
-            duration:700,
+            duration:1500,
             delay:10,
+            once: true
         })
     },[])
     return (
         <div className='lg:flex gap-6 max-w-7xl mx-auto px-8 py-24  '>
             {/* project-1 */}
-            <div data-aos="zoom-in-up" className="card mb-10 lg:mb-0 lg:w-96 shadow-sm">
+            <div data-aos="zoom-in-right"  className="card mb-10 lg:mb-0 lg:w-96 shadow-sm">
                 <figure>
                     <Image
 
@@ -82,7 +83,7 @@ export default function Projects() {
                 </div>
             </div>
             {/* project-3 */}
-            <div data-aos="zoom-in-up" className="card lg:w-96 shadow-sm">
+            <div data-aos="zoom-in-left" className="card lg:w-96 shadow-sm">
                 <figure>
                     <Image
 
