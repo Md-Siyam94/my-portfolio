@@ -8,6 +8,8 @@ import social3 from '../../../public/github.png'
 import Link from 'next/link'
 import { ReactTyped } from 'react-typed'
 import { motion } from "motion/react"
+import HeroShape from '../../../public/hero-shape-5.png'
+
 export default function Hero() {
 
     return (
@@ -86,7 +88,19 @@ export default function Hero() {
                     <Link href={'https://www.facebook.com/profile.php?id=100049223240013'} target="_blank" rel="noopener noreferrer"><Image className='lg:h-12 h-9 lg:w-12 w-9 cursor-pointer' src={social2} alt='facebook' /></Link>
                 </motion.div>
             </div>
-            <div className='col-span-2 grid lg:justify-end justify-center mt-7 lg:mt-0'>
+            <div className='col-span-2 relative grid lg:justify-end justify-center mt-7 lg:mt-0'>
+                <motion.div
+                className='hidden lg:block'
+                    animate={{ y: ["-50px", "50px"] }}
+                    transition={{
+                        duration: 5,
+                        repeat: Infinity,
+                        repeatType: "reverse",
+                        ease: "linear",
+                    }}
+                >
+                    <Image className='absolute -ml-12 h-24 w-24' src={HeroShape} alt='shape' />
+                </motion.div>
                 <Image className='lg:h-72 lg:w-72 h-52 w-52 lg:ml-20  pb-5  object-cover bg-[radial-gradient(circle,rgba(192,38,211,0.8)_0%,rgba(192,38,211,0)_70%)] ' src={PortfolioImage} alt='Portfolio image' />
             </div>
         </div>
