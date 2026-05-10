@@ -14,30 +14,31 @@ export default function Skills() {
     return (
         <div className='max-w-7xl mx-auto px-4 py-24 grid lg:grid-cols-5 grid-cols-1 items-center '>
             <div className='col-span-2 text-center lg:text-start'>
-                <motion.h1 
-                initial={{ y: 80, opacity: 0 }}
+                <motion.h1
+                    initial={{ y: 80, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{
                         duration: 1,
                         delay: 0.15,
                         ease: [0.25, 0.8, 0.25, 1],
                     }}
-                    viewport={{once: true}}
-                className='lg:text-6xl md:text-5xl text-3xl font-semibold'>My <span className='text-warning'>Soft</span> Expertness</motion.h1>
+                    viewport={{ once: true }}
+                    className='lg:text-6xl md:text-5xl text-3xl font-semibold'>My <span className='text-warning'>Soft</span> Expertness</motion.h1>
                 <motion.p
-                initial={{ y: 80, opacity: 0 }}
+                    initial={{ y: 80, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{
                         duration: 1,
                         delay: 0.2,
                         ease: [0.25, 0.8, 0.25, 1],
                     }}
-                    viewport={{once: true}}
-                className='opacity-80 mt-4 md:w-3/4 lg:w-full mx-auto'>With a strong foundation in web development, I specialize in the MERN stack (MongoDB, Express.js, React.js, and Node.js)</motion.p>
+                    viewport={{ once: true }}
+                    className='opacity-80 mt-4 md:w-3/4 lg:w-full mx-auto'>I am working with Tailwind CSS, JavaScript or Typescript, React/Next js, and other
+                    modern web technologies to build dynamic and responsive web applications.</motion.p>
             </div>
             <div className='col-span-3  h-[330px] overflow-y-scroll grid md:grid-cols-4 gap-6 p-5 items-center grid-cols-3 ' >
                 {
-                    expertness.map((skill, index)=> <ExpretnessCard key={index} skill={skill}></ExpretnessCard> )
+                    expertness.map((skill, index) => <ExpretnessCard key={index} skill={skill}></ExpretnessCard>)
                 }
             </div>
         </div>

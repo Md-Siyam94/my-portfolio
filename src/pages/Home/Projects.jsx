@@ -20,7 +20,7 @@ export default function Projects() {
     },[])
     return (
         <div className='max-w-7xl mx-auto px-8 py-24 '>
-            <h1 className='lg:text-6xl md:text-5xl text-3xl font-semibold'>My <span className='text-warning'>Projects</span></h1>
+            <h1 className='lg:text-6xl md:text-5xl text-3xl text-center mb-16 font-semibold'>My <span className='text-warning'>Projects</span></h1>
             <div className='lg:flex gap-6  '>
             {/* project-1 */}
             <div data-aos="zoom-in-right"  className="card mb-10 lg:mb-0 lg:w-96 shadow-sm">
@@ -49,7 +49,7 @@ export default function Projects() {
                                 content="Twine server"
                             />
                         </div>
-                        <Link href={'https://twinewere.netlify.app/'} target='_blank' className='py-3 px-6 bg-success rounded-full hover:bg-emerald-500'>See Project</Link>
+                        <Link href={'https://twinewere.netlify.app/'} target='_blank' className='py-3 px-6 bg-success rounded-full hover:bg-emerald-500'>View Project</Link>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ export default function Projects() {
                                 content="Shikhoo server"
                             />
                         </div>
-                        <Link href={'https://twinewere.netlify.app/'} target='_blank' className='py-3 px-6 bg-success rounded-full hover:bg-emerald-500'>See Project</Link>
+                        <Link href={'https://twinewere.netlify.app/'} target='_blank' className='py-3 px-6 bg-success rounded-full hover:bg-emerald-500'>View Project</Link>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ export default function Projects() {
                                 content="Artifacts server"
                             />
                         </div>
-                        <Link href={'https://twinewere.netlify.app/'} target='_blank' className='py-3 px-6 bg-success rounded-full hover:bg-emerald-500'>See Project</Link>
+                        <Link href={'https://twinewere.netlify.app/'} target='_blank' className='py-3 px-6 bg-success rounded-full hover:bg-emerald-500'>View Project</Link>
                     </div>
                 </div>
             </div>

@@ -32,7 +32,8 @@ export default function Hero() {
                         delay: 0.25,
                         ease: [0.25, 0.8, 0.25, 1],
                     }}>
-                    <ReactTyped
+                        <h1 className='lg:text-6xl md:text-5xl text-3xl font-semibold'><span class='text-warning'>Full</span> Stack Developer</h1>
+                    {/* <ReactTyped
                         initial={{ y: 80, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{
@@ -61,7 +62,7 @@ export default function Hero() {
                         ]}
                         typeSpeed={90}
                         typedRef={function noRefCheck() { }}
-                    />
+                    /> */}
 
                 </motion.div>
                 <motion.p
@@ -72,8 +73,7 @@ export default function Hero() {
                         delay: 0.3,
                         ease: [0.25, 0.8, 0.25, 1],
                     }}
-                    className='opacity-60 mt-4 md:w-3/4 lg:w-full '>Currently, I am working with Tailwind CSS, JavaScript, React, and other
-                    modern web technologies to build dynamic and responsive web applications.</motion.p>
+                    className='opacity-60 mt-4 md:w-3/4 lg:w-full '>With a strong foundation in web development, I specialize in the Full stack (MongoDB, Express.js, React/Next.js, and Node.js)</motion.p>
                 <motion.div
                     initial={{ y: 80, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}

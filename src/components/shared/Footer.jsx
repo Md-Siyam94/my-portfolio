@@ -10,7 +10,7 @@ export default function Footer() {
             <aside>
                 <h1 className='text-2xl font-semibold'>Md Siyam</h1>
                 <p>
-                    programmersiyam01@gmail.com
+                    siyam942404@gmail.com
                     <br />
                   +880 1789478967
                 </p>
