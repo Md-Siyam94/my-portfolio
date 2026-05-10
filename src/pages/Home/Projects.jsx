@@ -19,7 +19,9 @@ export default function Projects() {
         })
     },[])
     return (
-        <div className='lg:flex gap-6 max-w-7xl mx-auto px-8 py-24  '>
+        <div className='max-w-7xl mx-auto px-8 py-24 '>
+            <h1 className='lg:text-6xl md:text-5xl text-3xl font-semibold'>My <span className='text-warning'>Projects</span></h1>
+            <div className='lg:flex gap-6  '>
             {/* project-1 */}
             <div data-aos="zoom-in-right"  className="card mb-10 lg:mb-0 lg:w-96 shadow-sm">
                 <figure>
@@ -113,6 +115,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

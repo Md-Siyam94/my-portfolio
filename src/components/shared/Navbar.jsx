@@ -49,8 +49,8 @@ export default function Navbar() {
                         {links}
                     </ul>
                 </div>
-                <Link href="https://drive.google.com/uc?export=download&id=1wtDtdYA3vbqGOCm_g5Md1cDDBxxHRs4g"
-                    download="Md-Siyam-Resume.pdf" className="py-3 px-5 rounded-full bg-success hover:bg-emerald-500 text-sm">Resume</Link>
+                <Link href="https://drive.google.com/file/d/1bFEbNRpUWzYM9Wg0d_oSQIXsENQsdMlu/view?usp=sharing"
+                    download="Resume.pdf" className="py-3 px-5 rounded-full bg-success hover:bg-emerald-500 text-sm">Resume</Link>
             </div>
         </div>
     )

@@ -48,10 +48,7 @@ export default function About() {
             <h1 className='text-xl font-semibold mb-4'> My Enjoyable Work</h1>
             <p className=' opacity-70'>I thrive on crafting elegant and efficient web applications using React.js and Tailwind CSS. Building user-friendly, dynamic interfaces and solving complex challenges in the MERN stack is where I find my creative energy. I enjoy turning ideas into visually stunning and functional digital experiences, always learning and improving along the way.</p>
         </SwiperSlide>
-        <SwiperSlide className='shadow-2xl overflow-y-scroll lg:overflow-hidden border-2 border-fuchsia-600 shadow-fuchsia-700 p-5'>
-            <h1 className='text-xl font-semibold mb-4'>Hobbies</h1>
-            <p className=' opacity-70'>Outside of programming, I find peace and joy in gardening. There is something incredibly fulfilling about nurturing plants and watching them grow. Whether it is tending to vibrant flowers or cultivating fresh vegetables, gardening provides a refreshing balance to my tech-driven life.</p>
-        </SwiperSlide>    
+            
       </Swiper>
     
     </div>
